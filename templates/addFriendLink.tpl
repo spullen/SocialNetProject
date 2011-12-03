@@ -1,0 +1,1 @@
+<a href="javascript: void(0);" onclick="addFriend({$uid},{$fid}); changeFriendLink('unfriend', {$uid}, {$fid}); return false;"><img src="images/icons/group_add.png" border="0" /> Create Friendship</a>

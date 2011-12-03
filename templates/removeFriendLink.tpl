@@ -1,0 +1,1 @@
+<a href="javascript: void(0);" onclick="removeFriend({$uid},{$fid}); changeFriendLink('friend', {$uid}, {$fid}); return false;"><img src="images/icons/group_delete.png" border="0" /> End Friendship</a>

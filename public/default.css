@@ -1,0 +1,314 @@
+body {
+  margin: 25px 150px;
+  padding: 0px;
+  text-align: center;
+  background-color: #a9cbf4;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 10pt; 
+  color: #444;
+}
+
+legend {
+    font-size: 15pt;
+}
+
+a {
+  text-decoration: none;
+  color: #366492;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  margin: 0;
+}
+
+input[type=text], input[type=password], select {
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+.statusInput {
+    padding: 4px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    padding: 4px;
+}
+
+textarea {
+    padding: 4px;
+    width: 350px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+#contentContainer {
+  margin: 0 auto;
+  background-color: #FFF;
+  text-align: left;
+  position: relative;
+  cursor: auto;
+  z-index: 1000;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#header {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#banner {
+	height: 60px;
+	padding: 10px;
+}
+
+#navcontainer {
+	margin-bottom: 10px;
+    z-index: 1000;
+}
+
+#navcontainer ul {
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #036;
+	color: white;
+	float: left;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { 
+	display: inline; 
+}
+
+#navcontainer ul li a {
+	padding: 0.2em 1em;
+	background-color: #036;
+	color: White;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover {
+	background-color: #369;
+	color: #fff;
+}
+
+#message {
+	color: green;
+}
+
+#content {
+  min-height: 500px;
+  padding: 15px;
+  margin: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+div .clear {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+div .section {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+div .sectionText {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* Profile Styles */
+#profilePhoto {
+	margin: 5px;
+	padding: 5px;
+}
+
+#profileSide {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 35%;
+}
+
+#profileInformation {
+    width: 50%;
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+
+#profileNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#profileNav li {
+    float: left;
+    border: 1px solid #bbb;
+    border-bottom-width: 0;
+    margin: 0;
+}
+
+#profileNav a {
+    text-decoration: none;
+    display: block;
+    background: #eee;
+    padding: 0.24em 1em;
+    color: #00c;
+    width: 8em;
+    text-align: center;
+}
+
+#profileNav a:hover {
+    background: #ddf;
+}
+
+#profileNav .selected {
+    border-color: black;
+}
+
+#profileNav .selected a {
+    position: relative;
+    top: 1px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+#profileTabContent {
+    border: 1px solid black;
+	clear: both;
+	padding: 0 1em;
+}
+
+#wall {
+    border-top: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+}
+
+#friendList ul {
+    list-style: none;
+}
+
+div .profileHeading {
+	margin: 10px 10px 0 10px;
+	padding: 5px;
+}
+
+div .section {
+    border-bottom: 1px solid #ccc;
+}
+
+div .sectionActions {
+    margin-top: 5px;
+}
+
+div .up {
+    vertical-align: top;
+}
+
+div .whatUp {
+    padding: 10px;
+}
+
+.profileName {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.friendStatuses {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+.statusTime {
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+.friend_status {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.status_message {
+    padding: 3px;
+    margin: 2px;
+}
+
+.friendRecommendations {
+    float: left;
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.spacer {
+    height: 15px;
+}
+
+a.current {
+    font-weight: bold;
+}
+
+.picture {
+    border: 2px solid #039;
+}
+
+.currentPicture {
+    border: 6px solid #d1b934;
+}
+
+/***** Ajax indicator ******/
+#ajax-indicator {
+    position: absolute; /* fixed not supported by IE */
+    background-color:#eee;
+    border: 1px solid #bbb;
+    top:35%;
+    left:40%;
+    width:20%;
+    font-weight:bold;
+    text-align:center;
+    padding:0.6em;
+    z-index:100;
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+}
+
+html>body #ajax-indicator { position: fixed; }
+
+#ajax-indicator span {
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
+    background-image: url(../images/loading.gif);
+    padding-left: 26px;
+    vertical-align: bottom;
+}
