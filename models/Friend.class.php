@@ -83,6 +83,8 @@ class Friend {
         $db = new DataBase();
 
         // I tried this as a nested query and it took 20 minutes, lol
+        // 20111228 - The better way to do this would have been to periodically generate the recommendations and 
+        // store them in their own table.
         $sql = 'SELECT F.friendID FROM Friends F WHERE F.userID = \'' . $userID . '\'';
         $friendIDs = $db->select($sql);
         $ids = array();
